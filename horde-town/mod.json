@@ -53,7 +53,8 @@
 		"config/horde/creatures/lock2",
 		"config/horde/creatures/gronn1",
 		"config/horde/creatures/gronn2",
-		"config/horde/creatures/kobold"
+		"config/horde/creatures/kobold",
+		"config/horde/creatures/stack_exp"
 
 	],
 	"heroClasses" :
