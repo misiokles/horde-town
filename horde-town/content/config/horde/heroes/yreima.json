@@ -1,20 +1,16 @@
 {
-	"hYreima" :
-	{
+	"hYreima" : {
 		"class" : "hWarchief",
 		"female" : true,
 
-		"images" :
-		{
-			
+		"images" : {
 			"specialtySmall" : "horde/heroes/yreima/spec-small.png",
 			"specialtyLarge" : "horde/heroes/yreima/spec-large.png",
 			"large" : "horde/heroes/yreima/portrait-large.png",
 			"small" : "horde/heroes/yreima/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "peon",
 				"max" : 30,
@@ -32,8 +28,7 @@
 			}
 		],
 
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -43,12 +38,10 @@
 				"skill" : "armorer"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Yreima",
 			"biography" : "",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Theurgists and Regal Theurgists}\r\n\r\nIncreases Speed of any Theurgists or Regal Theurgists by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"name" : "Theurgists",
 				"tooltip" : "Creature Bonus: Theurgists"

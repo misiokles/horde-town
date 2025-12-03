@@ -3,78 +3,138 @@
 		"types" : {
 			"hFold" : {
 				"name" : "Fold",
-				"creatures" : [[ "peon" ]],
+				"creatures" : [
+					[
+						"peon"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "horde/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VBV", "VAV" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAV"
+						]
 					}
 				}
 			},
 			"hCasern" : {
 				"name" : "Casern",
-				"creatures" : [[ "troll1" ]],
+				"creatures" : [
+					[
+						"troll1"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "horde/adventure-map/dwelling-2.def",
-						"mask" : [ "VVVV", "VVVV", "VBBV", "VVAV" ]
-
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBV",
+							"VVAV"
+						]
 					}
 				}
 			},
 			"hTannery" : {
 				"name" : "Tannery",
-				"creatures" : [[ "worg1" ]],
+				"creatures" : [
+					[
+						"worg1"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "horde/adventure-map/dwelling-3.def",
-						"mask" : [ "VVVV", "VVVV", "VBBV", "VABV" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBV",
+							"VABV"
+						]
 					}
 				}
 			},
 			"hStormyNaos" : {
 				"name" : "Stormy Naos",
-				"creatures" : [[ "lock1" ]],
+				"creatures" : [
+					[
+						"lock1"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "horde/adventure-map/dwelling-4.def",
-						"mask" : [ "VVVV", "VVVV", "VVBB", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"hWyrmrestSanctum" : {
 				"name" : "Wyrmrest Sanctum",
-				"creatures" : [[ "drake1" ]],
+				"creatures" : [
+					[
+						"drake1"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "horde/adventure-map/dwelling-5.def",
-						"mask" : [ "VVVV", "VVVV", "VBBV", "VBAV" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBV",
+							"VBAV"
+						]
 					}
 				}
 			},
 			"hBoulderAbode" : {
 				"name" : "Boulder Abode",
-				"creatures" : [[ "ogre1" ]],
+				"creatures" : [
+					[
+						"ogre1"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "horde/adventure-map/dwelling-6.def",
-						"mask" : [ "VVVV", "VVVV", "VBBV", "VVAV" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBV",
+							"VVAV"
+						]
 					}
 				}
 			},
 			"hRidgeoftheDamned" : {
 				"name" : "Ridge of the Damned",
-				"creatures" : [[ "gronn1" ]],
+				"creatures" : [
+					[
+						"gronn1"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "horde/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "VBV", "VAV" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAV"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

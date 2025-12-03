@@ -1,63 +1,57 @@
 {
-	"foreman":
-	{
-		"name" :
-		{
+	"foreman" : {
+		"name" : {
 			"plural" : "Foremen",
 			"singular" : "Foreman"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 20
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 20
 		},
 		"faction" : "horde",
 		"aiValue" : 137,
 		"attack" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 80
 		},
-		"damage" :
-		{
-			 "max" : 3,
-			 "min" : 3
+		"damage" : {
+			"max" : 3,
+			"min" : 3
 		},
 		"defense" : 3,
 		"fightValue" : 149,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "horde/battle/foreman.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "horde/map/foremanmini.def",
 			"iconSmall" : "horde/iconsSmall/foremans.bmp",
 			"iconLarge" : "horde/iconsBig/foremanl.bmp",
 			"timeBetweenFidgets" : 1
 		},
-	
+
 		"growth" : 14,
 		"hitPoints" : 9,
 		"level" : 1,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "horde/orcatk.wav",
 			"defend" : "horde/orchit.wav",
 			"killed" : "horde/orcdie.wav",
-			"move": "OORCMOVE.wav",
+			"move" : "OORCMOVE.wav",
 			"wince" : "horde/orchit.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"roughWalker" : 
-			{
-			    "type" : "NO_TERRAIN_PENALTY",
+		"abilities" : {
+			"roughWalker" : {
+				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "terrain.rough",
 				"propagator" : "HERO"
 			},
-			"dirtWalker" : 
-			{
-			    "type" : "NO_TERRAIN_PENALTY",
+			"dirtWalker" : {
+				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "terrain.dirt",
 				"propagator" : "HERO"
 			}

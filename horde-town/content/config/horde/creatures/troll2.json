@@ -1,45 +1,41 @@
 {
-	"troll2":
-	{
-		"name" :
-		{
+	"troll2" : {
+		"name" : {
 			"plural" : "Sandfury Trolls",
 			"singular" : "Sandfury Troll"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
 		},
 		"faction" : "horde",
 		"aiValue" : 242,
 		"attack" : 5,
 		"hasDoubleWeek" : true,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 200
 		},
-		"damage" :
-		{
-			 "max" : 4,
-			 "min" : 2
+		"damage" : {
+			"max" : 4,
+			"min" : 2
 		},
 		"defense" : 8,
 		"fightValue" : 249,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "horde/battle/troll2.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "horde/map/troll2mini.def",
 			"iconSmall" : "horde/iconsSmall/troll2s.bmp",
 			"iconLarge" : "horde/iconsBig/troll2l.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "porchx.def",
-			    "attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"attackClimaxFrame" : 8,
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -47,31 +43,40 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			},
-		},	
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
 		"growth" : 7,
 		"hitPoints" : 18,
 		"level" : 2,
 		"shots" : 8,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "horde/trollatk.wav",
 			"defend" : "horde/trollhit.wav",
 			"killed" : "horde/trolldie.wav",
-			"move": "OORCMOVE.wav",
+			"move" : "OORCMOVE.wav",
 			"wince" : "horde/trollhit.wav",
-			"shoot": "OORCSHOT.wav",
+			"shoot" : "OORCSHOT.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-             "canshoot" :
-			{
+		"abilities" : {
+			"canshoot" : {
 				"type" : "SHOOTER"
 			},
-             "freeShoot" :
-			{
+			"freeShoot" : {
 				"type" : "FREE_SHOOTING"
 			}
 		}

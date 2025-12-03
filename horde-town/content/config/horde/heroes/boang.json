@@ -1,18 +1,15 @@
 {
-	"hBoang" :
-	{
+	"hBoang" : {
 		"class" : "hWarchief",
 		"female" : false,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "horde/heroes/boang/spec-small.png",
 			"specialtyLarge" : "horde/heroes/boang/spec-large.png",
 			"large" : "horde/heroes/boang/portrait-large.png",
 			"small" : "horde/heroes/boang/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "peon",
 				"max" : 30,
@@ -40,18 +37,16 @@
 				"skill" : "estates"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "B'oang",
 			"biography" : "",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Estates}\r\n\r\nReceives a 7% per level bonus to Estates skill(rounded up).",
 				"name" : "Estates",
 				"tooltip" : "Secondary Skill Bonus: Estates"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"estates" : {

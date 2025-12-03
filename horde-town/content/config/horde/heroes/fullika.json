@@ -1,17 +1,14 @@
 {
-	"hFullika" :
-	{
+	"hFullika" : {
 		"class" : "hWarchief",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "horde/heroes/fullika/spec-small.png",
 			"specialtyLarge" : "horde/heroes/fullika/spec-large.png",
 			"large" : "horde/heroes/fullika/portrait-large.png",
 			"small" : "horde/heroes/fullika/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "worg1",
 				"max" : 5,
@@ -29,8 +26,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -40,12 +36,10 @@
 				"skill" : "luck"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Fullika",
 			"biography" : "",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Worgs, Harness Worgs and Martial Worgs}\r\n\r\nIncreases Speed of any Worgs or Harness Worgs or Martial Worgs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"name" : "Worgs",
 				"tooltip" : "Creature Bonus: Worgs"

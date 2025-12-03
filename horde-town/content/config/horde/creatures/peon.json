@@ -1,34 +1,32 @@
 {
-	"peon":
-	{
-		"name" :
-		{
+	"peon" : {
+		"name" : {
 			"plural" : "Peons",
 			"singular" : "Peon"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 50,
-			 "min" : 20
+		"advMapAmount" : {
+			"max" : 50,
+			"min" : 20
 		},
 		"faction" : "horde",
 		"aiValue" : 95,
 		"attack" : 4,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 70
 		},
-		"damage" :
-		{
-			 "max" : 3,
-			 "min" : 2
+		"damage" : {
+			"max" : 3,
+			"min" : 2
 		},
 		"defense" : 3,
 		"fightValue" : 108,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "horde/battle/peon.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "horde/map/peonmini.def",
 			"iconSmall" : "horde/iconsSmall/peons.bmp",
 			"iconLarge" : "horde/iconsBig/peonl.bmp",
@@ -37,16 +35,14 @@
 		"growth" : 14,
 		"hitPoints" : 6,
 		"level" : 1,
-		"upgrades":
-		[
+		"upgrades" : [
 			"foreman"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "horde/orcatk.wav",
 			"defend" : "horde/orchit.wav",
 			"killed" : "horde/orcdie.wav",
-			"move": "OORCMOVE.wav",
+			"move" : "OORCMOVE.wav",
 			"wince" : "horde/orchit.wav"
 		},
 		"speed" : 6

@@ -1,35 +1,33 @@
 {
-	"gronn2":
-	{
-		"name" :
-		{
+	"gronn2" : {
+		"name" : {
 			"plural" : "Elder Gronns",
 			"singular" : "Elder Gronn"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 8,
-			 "min" : 3
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
 		},
 		"faction" : "horde",
 		"aiValue" : 8782,
 		"attack" : 28,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 4750,
 			"ore" : 2
 		},
-		"damage" :
-		{
-			 "max" : 55,
-			 "min" : 45
+		"damage" : {
+			"max" : 55,
+			"min" : 45
 		},
 		"defense" : 22,
 		"fightValue" : 6768,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "horde/battle/gronn2.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "horde/map/gronn2mini.def",
 			"iconSmall" : "horde/iconsSmall/gronn2s.bmp",
 			"iconLarge" : "horde/iconsBig/gronn2l.bmp",
@@ -39,30 +37,25 @@
 		"growth" : 1,
 		"hitPoints" : 280,
 		"level" : 7,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "horde/gronnatk.wav",
 			"defend" : "horde/gronnhit.wav",
 			"killed" : "horde/gronndie.wav",
 			"move" : "horde/gronnwlk.wav",
-			"wince" : "horde/gronnhit.wav"                     
+			"wince" : "horde/gronnhit.wav"
 		},
 		"speed" : 13,
-		"abilities" :
-		{
-			"mindImm" :
-			{
+		"abilities" : {
+			"mindImm" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 			},
-			"doubleDamage" :
-			{
+			"doubleDamage" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE",
 				"val" : 20
 			}

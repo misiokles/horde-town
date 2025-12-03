@@ -1,18 +1,15 @@
 {
-	"hDraas" :
-	{
+	"hDraas" : {
 		"class" : "hWarchief",
 		"female" : false,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "horde/heroes/draas/spec-small.png",
 			"specialtyLarge" : "horde/heroes/draas/spec-large.png",
 			"large" : "horde/heroes/draas/portrait-large.png",
 			"small" : "horde/heroes/draas/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "peon",
 				"max" : 30,
@@ -40,18 +37,16 @@
 				"skill" : "eagleEye"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Dra'as",
 			"biography" : "",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Offence}\r\n\r\nReceives a 7% per level bonus to Offense skill(rounded up).",
 				"name" : "Offence",
 				"tooltip" : "Secondary Skill Bonus: Offence"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"offence" : {

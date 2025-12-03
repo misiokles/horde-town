@@ -1,76 +1,68 @@
 {
-	"worg2":
-	{
-		"name" :
-		{
+	"worg2" : {
+		"name" : {
 			"plural" : "Harness Worgs",
 			"singular" : "Harness Worg"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 12
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 12
 		},
 		"faction" : "horde",
 		"aiValue" : 321,
 		"attack" : 6,
 		"hasDoubleWeek" : true,
-         "cost" :
-		{
+		"cost" : {
 			"gold" : 240
 		},
-		"damage" :
-		{
-			 "max" : 6,
-			 "min" : 3
+		"damage" : {
+			"max" : 6,
+			"min" : 3
 		},
 		"defense" : 9,
 		"fightValue" : 319,
 		"horde" : 6,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "horde/battle/worg2.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "horde/map/worg2mini.def",
 			"iconSmall" : "horde/iconsSmall/worg2s.bmp",
 			"iconLarge" : "horde/iconsBig/worg2l.bmp",
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"doubleWide" : true,
 		"growth" : 9,
 		"hitPoints" : 22,
-        "level" : 3,
-		"upgrades":
-		[
+		"level" : 3,
+		"upgrades" : [
 			"worg3"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "horde/worgatk.wav",
 			"defend" : "horde/worgblk.wav",
 			"killed" : "horde/worgdie.wav",
-			"move": "HGWRMOVE.wav",
-			"wince" : "horde/worgblk.wav",
+			"move" : "HGWRMOVE.wav",
+			"wince" : "horde/worgblk.wav"
 		},
 		"speed" : 8,
-		"abilities" :
-		{
-			"fearless" : 
-			{
+		"abilities" : {
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 			},
-			"hata" : 
-			{
-			    "type" : "HATE",
+			"hata" : {
+				"type" : "HATE",
 				"val" : 50,
 				"subtype" : "creature.woodElf"
 			},
-			"hateElves" : 
-			{
-			    "type" : "HATE",
+			"hateElves" : {
+				"type" : "HATE",
 				"val" : 50,
 				"subtype" : "creature.grandElf"
 			}

@@ -1,66 +1,59 @@
 {
-	"ogre3":
-	{
-		"name" :
-		{
+	"ogre3" : {
+		"name" : {
 			"plural" : "Crimson Goliaths",
 			"singular" : "Crimson Goliath"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
 		},
 		"faction" : "horde",
 		"aiValue" : 2060,
 		"attack" : 17,
 		"hasDoubleWeek" : true,
-                "cost" :
-		{
+		"cost" : {
 			"gold" : 1200
 		},
-		"damage" :
-		{
-			 "max" : 23,
-			 "min" : 21
+		"damage" : {
+			"max" : 23,
+			"min" : 21
 		},
 		"defense" : 15,
 		"fightValue" : 1751,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "horde/battle/ogre3.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "horde/map/mapogre3.def",
 			"iconSmall" : "horde/iconsSmall/ogre3s.bmp",
 			"iconLarge" : "horde/iconsBig/ogre3l.bmp",
 			"timeBetweenFidgets" : 1
-        },
+		},
 		"growth" : 2,
 		"hitPoints" : 105,
 		"level" : 6,
-		
-		"sound" :
-		{
+
+		"sound" : {
 			"attack" : "horde/ogreatk.wav",
 			"defend" : "horde/ogreblk.wav",
 			"killed" : "horde/ogredie.wav",
-			"move": "OGREMOVE.wav",
+			"move" : "OGREMOVE.wav",
 			"wince" : "horde/ogrehit.wav"
 		},
 		"speed" : 8,
-		"abilities" :
-		{
-			"spellimmunityslow" :
-			{
+		"abilities" : {
+			"spellimmunityslow" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.slow"
 			},
-			"antyjousting" :
-			{
+			"antyjousting" : {
 				"type" : "CHARGE_IMMUNITY"
 			},
-			"slayer" :
-			{
+			"slayer" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.slayer",
 				"val" : 3

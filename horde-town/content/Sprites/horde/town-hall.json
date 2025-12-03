@@ -1,8 +1,13 @@
 {
-    "basepath" : "horde/frames/",
-	"images" :
-	[
-		{ "frame" : 22, "file" : "ThElSpec3"},
-		{ "frame" : 49, "file" : "ThElUp_5_2"}
+	"basepath" : "horde/frames/",
+	"images" : [
+		{
+			"frame" : 22,
+			"file" : "ThElSpec3"
+		},
+		{
+			"frame" : 49,
+			"file" : "ThElUp_5_2"
+		}
 	]
 }

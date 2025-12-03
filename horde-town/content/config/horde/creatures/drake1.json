@@ -1,73 +1,64 @@
 {
-	"drake1":
-	{
-		"name" :
-		{
+	"drake1" : {
+		"name" : {
 			"plural" : "Drakes",
 			"singular" : "Drake"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 16,
-			 "min" : 8
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
 		},
 		"faction" : "horde",
 		"aiValue" : 1193,
 		"attack" : 10,
 		"hasDoubleWeek" : true,
 		"doubleWide" : true,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 475
 		},
-		"damage" :
-		{
-			 "max" : 16,
-			 "min" : 13
+		"damage" : {
+			"max" : 16,
+			"min" : 13
 		},
 		"defense" : 10,
 		"fightValue" : 1082,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "horde/battle/drake1.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "horde/map/mapdrake1.def",
 			"iconSmall" : "horde/iconsSmall/drake1s.bmp",
 			"iconLarge" : "horde/iconsBig/drake1l.bmp",
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"growth" : 3,
 		"hitPoints" : 55,
 		"level" : 5,
-		"upgrades":
-		[
+		"upgrades" : [
 			"drake2"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "horde/drakeatk.wav",
 			"defend" : "horde/drakeblk.wav",
 			"killed" : "horde/drakedie.wav",
-			"move": "HGWRMOVE.wav",
-			"wince" : "horde/drakehit.wav",         
+			"move" : "HGWRMOVE.wav",
+			"wince" : "horde/drakehit.wav"
 		},
 		"speed" : 8,
-		"abilities" :
-		{
-			"canFly" : 
-			{
-			    "type" : "FLYING"
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
 			},
-			"dragon" : 
-			{
-			    "type" : "DRAGON_NATURE"
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
 			},
-			"spellImmunity" :
-			{
+			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 3
 			}
 		}
 	}
 }
-

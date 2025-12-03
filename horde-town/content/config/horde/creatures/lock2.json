@@ -1,44 +1,40 @@
 {
-	"lock2":
-	{
-		"name" :
-		{
+	"lock2" : {
+		"name" : {
 			"plural" : "Regal Theurgists",
 			"singular" : "Regal Theurgist"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 16,
-			 "min" : 10
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
 		},
 		"faction" : "horde",
 		"aiValue" : 799,
 		"attack" : 9,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 425
 		},
-		"damage" :
-		{
-			 "max" : 10,
-			 "min" : 7
+		"damage" : {
+			"max" : 10,
+			"min" : 7
 		},
 		"defense" : 13,
 		"fightValue" : 739,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "horde/battle/lock2.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "horde/map/lock2mini.def",
 			"iconSmall" : "horde/iconsSmall/lock2s.bmp",
 			"iconLarge" : "horde/iconsBig/lock2l.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "plich.def",
-			    "attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"attackClimaxFrame" : 8,
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -46,36 +42,44 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
 		},
 		"growth" : 4,
 		"hitPoints" : 45,
 		"level" : 4,
-		"shots" : 18,		
-		"sound" :
-		{
+		"shots" : 18,
+		"sound" : {
 			"attack" : "horde/orcatk.wav",
 			"defend" : "horde/orchit.wav",
 			"killed" : "horde/orcdie.wav",
-			"move": "OORCMOVE.wav",
+			"move" : "OORCMOVE.wav",
 			"wince" : "horde/orchit.wav",
-			"shoot": "MONKSHOT.wav"                      
+			"shoot" : "MONKSHOT.wav"
 		},
 		"speed" : 10,
-		"abilities" :
-		{
-            "canshoot" :
-			{
+		"abilities" : {
+			"canshoot" : {
 				"type" : "SHOOTER"
 			},
-			"spellResistAura" :
-			{
+			"spellResistAura" : {
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 50
 			},
-			"curses" :
-			{
+			"curses" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.curse",
 				"val" : 50

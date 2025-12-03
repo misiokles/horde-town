@@ -1,45 +1,41 @@
 {
-	"troll1":
-	{
-		"name" :
-		{
+	"troll1" : {
+		"name" : {
 			"plural" : "Desert Trolls",
 			"singular" : "Desert Troll"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
 		},
 		"faction" : "horde",
 		"aiValue" : 166,
 		"attack" : 5,
 		"hasDoubleWeek" : true,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 130
 		},
-		"damage" :
-		{
-			 "max" : 3,
-			 "min" : 2
+		"damage" : {
+			"max" : 3,
+			"min" : 2
 		},
 		"defense" : 7,
 		"fightValue" : 175,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "horde/battle/troll1.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "horde/map/troll1mini.def",
 			"iconSmall" : "horde/iconsSmall/troll1s.bmp",
 			"iconLarge" : "horde/iconsBig/troll1l.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "porchx.def",
-			    "attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"attackClimaxFrame" : 8,
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -47,31 +43,40 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
 		},
 		"growth" : 7,
 		"hitPoints" : 12,
 		"level" : 2,
-		"upgrades":
-		[
+		"upgrades" : [
 			"troll2"
 		],
 		"shots" : 6,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "horde/trollatk.wav",
 			"defend" : "horde/trollhit.wav",
 			"killed" : "horde/trolldie.wav",
-			"move": "OORCMOVE.wav",
+			"move" : "OORCMOVE.wav",
 			"wince" : "horde/trollhit.wav",
-			"shoot": "OORCSHOT.wav",
+			"shoot" : "OORCSHOT.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-            "canshoot" :
-			{
+		"abilities" : {
+			"canshoot" : {
 				"type" : "SHOOTER"
 			}
 		}

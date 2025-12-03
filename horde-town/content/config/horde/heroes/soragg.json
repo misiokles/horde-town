@@ -1,22 +1,18 @@
 {
-	"hSoragg" :
-	{
+	"hSoragg" : {
 		"class" : "hClairvoyant",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "horde/heroes/soragg/spec-small.png",
 			"specialtyLarge" : "horde/heroes/soragg/spec-large.png",
 			"large" : "horde/heroes/soragg/portrait-large.png",
 			"small" : "horde/heroes/soragg/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"curse"
 		],
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "peon",
 				"max" : 30,
@@ -34,8 +30,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "learning"
@@ -45,28 +40,26 @@
 				"skill" : "sorcery"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Soragg",
 			"biography" : "",
-			"specialty" :
-			{
+			"specialty" : {
 				"name" : "Earth Wraith",
 				"description" : "{Earth Wraith}\r\n\r\nHero can cast earth spell with 20% more damage.",
 				"tooltip" : "Spell bonus:Earth Damage"
 			}
 		},
-		
-		"specialty": {
-			"bonuses": {
-				"earthDamage": {
+
+		"specialty" : {
+			"bonuses" : {
+				"earthDamage" : {
 					"type" : "SPELL_DAMAGE",
 					"subtype" : "spellSchool.earth",
 					"val" : 20,
 					"valueType" : "BASE_NUMBER",
 					"propagator" : "HERO"
 				}
-			}	
+			}
 		}
 	}
 }
