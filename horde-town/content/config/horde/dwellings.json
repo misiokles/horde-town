@@ -38,7 +38,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "horde/adventure-map/dwelling-4.def",
-						"mask" : [ "VVVV", "VVVV", "VBBB", "VVAB" ]
+						"mask" : [ "VVVV", "VVVV", "VVBB", "VVAB" ]
 					}
 				}
 			},

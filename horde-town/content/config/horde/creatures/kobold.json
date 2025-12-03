@@ -16,6 +16,10 @@
 			 "max" : 15,
 			 "min" : 7
 		},
+		"cost" : 
+		{
+			"gold" : 2000
+		},
 		"defense" : 5,
 		"fightValue" : 961,
 		"graphics" :
