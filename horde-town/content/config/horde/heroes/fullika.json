@@ -40,7 +40,7 @@
 			"name" : "Fullika",
 			"biography" : "",
 			"specialty" : {
-				"description" : "{Worgs, Harness Worgs and Martial Worgs}\r\n\r\nIncreases Speed of any Worgs or Harness Worgs or Martial Worgs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+				"description" : "Increases Speed of any Worgs or Harness Worgs or Martial Worgs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"name" : "Worgs",
 				"tooltip" : "Creature Bonus: Worgs"
 			}

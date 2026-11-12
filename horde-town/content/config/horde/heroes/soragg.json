@@ -45,7 +45,7 @@
 			"biography" : "",
 			"specialty" : {
 				"name" : "Earth Wraith",
-				"description" : "{Earth Wraith}\r\n\r\nHero can cast earth spell with 20% more damage.",
+				"description" : "Hero can cast earth spell with 20% more damage.",
 				"tooltip" : "Spell bonus:Earth Damage"
 			}
 		},
@@ -54,7 +54,7 @@
 			"bonuses" : {
 				"earthDamage" : {
 					"type" : "SPELL_DAMAGE",
-					"subtype" : "spellSchool.earth",
+					"subtype" : "earth",
 					"val" : 20,
 					"valueType" : "BASE_NUMBER",
 					"propagator" : "HERO"

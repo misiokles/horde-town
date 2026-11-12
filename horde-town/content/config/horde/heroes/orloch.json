@@ -37,7 +37,7 @@
 			"name" : "Orloch",
 			"biography" : "",
 			"specialty" : {
-				"description" : "{Desert Trolls and Sandfury Trolls}\r\n\r\nIncreases Speed of any Desert Trolls or Sandfury Trolls by 1 and their Attack and Defense skills by 5% for every two levels (rounded up).",
+				"description" : "Increases Speed of any Desert Trolls or Sandfury Trolls by 1 and their Attack and Defense skills by 5% for every two levels (rounded up).",
 				"name" : "Desert Trolls",
 				"tooltip" : "Creature Bonus: Desert Trolls"
 			}

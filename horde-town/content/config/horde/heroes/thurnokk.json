@@ -40,7 +40,7 @@
 			"name" : "Thurnokk",
 			"biography" : "",
 			"specialty" : {
-				"description" : "{Decrease Luck}\r\n\r\nDecrease Luck on enemy creatures by 1.",
+				"description" : "Decrease Luck on enemy creatures by 1.",
 				"name" : "Decrease Luck",
 				"tooltip" : "Spell Bonus: Decrease Luck"
 			}

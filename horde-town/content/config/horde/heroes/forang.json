@@ -45,7 +45,7 @@
 			"biography" : "",
 			"specialty" : {
 				"name" : "Earth Dumper",
-				"description" : "{Earth Dumper}\r\n\r\nIncrease cost of enemy's earth spells by 20% (not working).",
+				"description" : "Increase cost of enemy's earth spells by 20% (not working).",
 				"tooltip" : "Spell bonus:Earth Dumper"
 			}
 		},

@@ -42,7 +42,7 @@
 			"name" : "Makgum",
 			"biography" : "",
 			"specialty" : {
-				"description" : "{Wood & Ore}\r\n\r\nIncreases kingdom's wood and ore production by 1 per day.",
+				"description" : "Increases kingdom's wood and ore production by 1 per day.",
 				"tooltip" : "Resource bonus:wood and ore",
 				"name" : "Wood & Ore"
 			}
@@ -51,12 +51,12 @@
 		"specialty" : {
 			"bonuses" : {
 				"wood" : {
-					"subtype" : "resource.wood",
+					"subtype" : "wood",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				},
 				"ore" : {
-					"subtype" : "resource.ore",
+					"subtype" : "ore",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				}

@@ -47,7 +47,7 @@
 			"biography" : "",
 			"specialty" : {
 				"name" : "Sulfur",
-				"description" : "{Sulfur}\r\n\r\nIncreases kingdom's sulfur production by 1 per day.",
+				"description" : "Increases kingdom's sulfur production by 1 per day.",
 				"tooltip" : "Resource bonus:sulfur"
 			}
 		},
@@ -55,7 +55,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"sulfur" : {
-					"subtype" : "resource.sulfur",
+					"subtype" : "sulfur",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				}

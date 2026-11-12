@@ -48,15 +48,16 @@
 		"abilities" : {
 			"spellimmunityslow" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.slow"
+				"subtype" : "slow"
 			},
 			"antyjousting" : {
 				"type" : "CHARGE_IMMUNITY"
 			},
 			"slayer" : {
-				"type" : "ENCHANTED",
-				"subtype" : "spell.slayer",
-				"val" : 3
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"val" : 3,
+				"addInfo" : { "spell" : "slayer" }
 			}
 		}
 	}

@@ -48,7 +48,7 @@
 			"biography" : "",
 			"specialty" : {
 				"name" : "Slow Immunity",
-				"description" : "{Slow Immunity}\r\n\r\nAll creatures in hero's army are immune to slow.",
+				"description" : "All creatures in hero's army are immune to slow.",
 				"tooltip" : "Spell bonus:Slow Immunity"
 			}
 		},
@@ -57,7 +57,7 @@
 			"bonuses" : {
 				"slow" : {
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.slow",
+					"subtype" : "slow",
 					"val" : 0,
 					"valueType" : "BASE_NUMBER"
 				}

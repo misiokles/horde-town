@@ -45,19 +45,14 @@
 			"biography" : "",
 			"specialty" : {
 				"name" : "Disrupting Ray",
-				"description" : "{Disrupting Ray}\r\n\r\nCasts Disrupting Ray with expert effects but not expert range.",
-				"tooltip" : "Spell bonus:Disrupting Ray"
+				"description" : "Casts Disrupting Ray with effect increased by 2",
+				"tooltip" : "Spell bonus: Disrupting Ray"
 			}
 		},
 
 		"specialty" : {
-			"bonuses" : {
-				"disruptingRay" : {
-					"addInfo" : -2,
-					"subtype" : "spell.disruptingRay",
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
-				}
-			}
+			"spellFixedAdditive" : "disruptingRay",
+			"spellFixedValues" : [ -2 ]
 		}
 	}
 }

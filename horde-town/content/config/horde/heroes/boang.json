@@ -41,7 +41,7 @@
 			"name" : "B'oang",
 			"biography" : "",
 			"specialty" : {
-				"description" : "{Estates}\r\n\r\nReceives a 7% per level bonus to Estates skill(rounded up).",
+				"description" : "Receives a 7% per level bonus to Estates skill(rounded up).",
 				"name" : "Estates",
 				"tooltip" : "Secondary Skill Bonus: Estates"
 			}

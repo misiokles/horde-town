@@ -42,7 +42,7 @@
 			"name" : "Yreima",
 			"biography" : "",
 			"specialty" : {
-				"description" : "{Theurgists and Regal Theurgists}\r\n\r\nIncreases Speed of any Theurgists or Regal Theurgists by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+				"description" : "Increases Speed of any Theurgists or Regal Theurgists by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"name" : "Theurgists",
 				"tooltip" : "Creature Bonus: Theurgists"
 			}

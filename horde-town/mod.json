@@ -3,9 +3,12 @@
 	"description" : "Horde Town",
 	"author" : "VCMI ROFL",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.24",
+	"version" : "1.25",
 	"modType" : "Town",
 	"changelog" : {
+		"1.25" : [
+			"Update to vcmi-1.8 format"
+		],
 		"1.24" : [
 			"Update to vcmi-1.7 format"
 		],
@@ -35,7 +38,7 @@
 		]
 	},
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.8.0"
 	},
 	"chinese" : {
 		"name" : "部落",

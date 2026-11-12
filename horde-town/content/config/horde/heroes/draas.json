@@ -41,7 +41,7 @@
 			"name" : "Dra'as",
 			"biography" : "",
 			"specialty" : {
-				"description" : "{Offence}\r\n\r\nReceives a 7% per level bonus to Offense skill(rounded up).",
+				"description" : "Receives a 7% per level bonus to Offense skill(rounded up).",
 				"name" : "Offence",
 				"tooltip" : "Secondary Skill Bonus: Offence"
 			}

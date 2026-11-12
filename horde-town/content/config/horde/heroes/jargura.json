@@ -47,19 +47,14 @@
 			"biography" : "",
 			"specialty" : {
 				"name" : "Slayer",
-				"description" : "{Slayer}\r\n\r\nCasts Slayer with expert effects but not expert range.",
-				"tooltip" : "Bonus spell:Slayer"
+				"description" : "Casts Slayer with effect increased by 20 for level 1–2 creatures, by 16 for level 3–4 creatures, by 12 for level 5–6 creatures, and by 8 for level 7 creatures.",
+				"tooltip" : "Spell bonus: Slayer"
 			}
 		},
 
 		"specialty" : {
-			"bonuses" : {
-				"slayer" : {
-					"addInfo" : 1,
-					"subtype" : "spell.slayer",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
-				}
-			}
+			"spellFixedAdditive" : "slayer",
+			"spellFixedValues" : [ 4, 3, 2, 1, 0, 0, 0 ]
 		}
 	}
 }

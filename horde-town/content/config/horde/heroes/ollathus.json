@@ -48,19 +48,13 @@
 			"biography" : "",
 			"specialty" : {
 				"name" : "Weakness",
-				"description" : "{Weakness}\r\n\r\nCasts Weakness with effect increased by 3% for every n hero levels (n - target creature level)..",
+				"description" : "Casts Weakness with effect increased by 3 for level 1–2 creatures, by 2 for level 3–4 creatures, and by 1 for level 5–6 creatures.",
 				"tooltip" : "Spell bonus:Weakness"
 			}
 		},
 
 		"specialty" : {
-			"bonuses" : {
-				"prayer" : {
-					"addInfo" : 0,
-					"subtype" : "spell.weakness",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
-				}
-			}
+			"spellFixedAdditive" : "weakness"
 		}
 	}
 }

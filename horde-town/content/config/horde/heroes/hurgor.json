@@ -46,20 +46,13 @@
 			"biography" : "",
 			"specialty" : {
 				"name" : "Protection from Earth",
-				"description" : "{Protection from Earth}\r\n\r\nCasts Protection from Earth with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"description" : "Casts Protection from Earth with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"tooltip" : "Spell bonus:Protection from Earth"
 			}
 		},
 
 		"specialty" : {
-			"bonuses" : {
-				"protectEarth" : {
-					"subtype" : "spell.protectEarth",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 4
-				}
-			}
+			"spellScalingPercentage" : "protectEarth"
 		}
 	}
 }
