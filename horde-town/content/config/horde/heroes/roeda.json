@@ -52,7 +52,9 @@
 
 		"specialty" : {
 			"spellFixedAdditive" : "disruptingRay",
-			"spellFixedValues" : [ -2 ]
+			"spellFixedValues" : [
+				-2
+			]
 		}
 	}
 }

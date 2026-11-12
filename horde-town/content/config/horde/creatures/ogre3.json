@@ -57,7 +57,9 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
 				"val" : 3,
-				"addInfo" : { "spell" : "slayer" }
+				"addInfo" : {
+					"spell" : "slayer"
+				}
 			}
 		}
 	}
